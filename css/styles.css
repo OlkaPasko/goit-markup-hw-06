@@ -263,11 +263,7 @@ address {
   background-color: white;
 }
 
-/* margin-right for 4 sections items */
-.feature .item:not(:last-child),
-.what-we-do .item:not(:last-child),
-.our-team .item-member:not(:last-child),
-.customers .item:not(:last-child) {
+.feature .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -318,6 +314,10 @@ address {
   letter-spacing: 0.03em;
 }
 
+.what-we-do .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .product {
   position: relative;
 }
@@ -356,6 +356,10 @@ address {
 
 .item-member > .occupation {
   margin-bottom: 16px;
+}
+
+.our-team .item-member:not(:last-child) {
+  margin-right: 30px;
 }
 
 .networks > .item:not(:last-child) {
@@ -452,6 +456,10 @@ address {
 
   border: 1px solid var(--border-logo-color);
   border-radius: 4px;
+}
+
+.customers .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .customers .item:hover,
